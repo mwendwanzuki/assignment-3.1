@@ -6,10 +6,10 @@ int main() {
     pCount = &count;
 
 
-    *pCount = 50;         // dereference pointer and change value
-
-    // print updated value of count
+    *pCount = 50;        
+    
     printf("Updated value of count: %d\n", count);
 
     return 0;
 }
+
